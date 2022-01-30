@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+       <title>Techsnap</title>
+       <meta charset="utf-8">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <link rel="stylesheet" href="./style.css">
+       <link rel="preconnect" href="https://fonts.googleapis.com">
+       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+       <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header></header>
+        <div class="choose-plan">
+           <h2 id="choose-plan">Choose your plan</h2>
+           <fieldset class="currency">
+               <label>Currency</label>
+               <div class="select-flex">
+                <select id="select">
+                    <option value="USD">$ USD</option>
+                    <option value="GBP">£ GBP</option>
+                    <option value="CAD">$ CAD</option>
+                    <option value="AUD">$ AUD</option>
+                    <option value="EUR">€ EUR</option>
+                    <option value="JPY">¥ JPY</option>
+                    <option value="INR" selected>₹ INR</option>
+                </select>
+                <div class="arrow-img"><img src="./images/down-arrow 1.png" alt=""></div>
+            </div>
+           </fieldset>
+        </div>
+       <div class="container">
+           <div class="Personal-plans">
+               <p id="para-1">Personal Plans</p>
+               <div class="card">
+                     <div id="free">Free</div>
+                    <p id="para-2">Give DataCamp a try for free</p>
+                    <div class="permonth">
+                       <div class="rupee">
+                        <p id="rupee">₹</p>
+                        <p id="zero">0</p>
+                       </div>
+                      <p id="month">/month</p>
+                    </div>
+                    <button class="button">Start Now</button>
+               </div>
+               <div class="card" id="hide">
+                <div id="free">Free</div>
+               <p id="para-2">Give DataCamp a try for free</p>
+               <div class="permonth">
+                  <div class="rupee">
+                   <p id="rupee">₹</p>
+                   <p id="zero">0</p>
+                  </div>
+                 <p id="month">/month</p>
+               </div>
+               <button class="button">Start Now</button>
+          </div>
+           </div>
+           <div class="business-plans">
+             <p id="para-1"> Business Plans</p>
+             <div class="sub-container"></div>
+           </div>
+       </div>
+       <div class="container-1">
+          
+       </div>
+       <script src="./app.js"></script>
+    </body>
+</html>
